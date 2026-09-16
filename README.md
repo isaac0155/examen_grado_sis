@@ -7,7 +7,7 @@ Web estática en HTML, CSS y JavaScript, preparada para GitHub Pages. Sin backen
 - Banco completo de 147 preguntas: 131 de opción múltiple, 4 de verdadero/falso y 12 abiertas. Se conservan las 13 tablas del Word.
 - Todas las preguntas o sesiones de 10, 25 o 50, filtradas por área. Orden aleatorio sin repeticiones; las letras de las opciones se conservan.
 - «No sé la respuesta» en todas las preguntas. Navegación libre y guardado automático en el navegador.
-- Al final: puntaje, desglose automático/autoevaluado, errores y respuestas desconocidas.
+- Al final: puntaje, desglose automático/autoevaluado, errores, respuestas desconocidas y preguntas sin clave válida para consultar al docente.
 - Copia para ChatGPT con todas las opciones, correctas marcadas, explicaciones y notas. Alternativas de selección manual y descarga `.txt` si el portapapeles no está disponible.
 - Nueva práctica solo de errores y respuestas desconocidas. Explorador del banco con búsqueda y filtros.
 
@@ -65,3 +65,5 @@ node --test tests/core.test.js
 ```
 
 Las pruebas comprueban integridad del banco, mezclado, puntaje, exclusión de preguntas inválidas, autoevaluación, recuperación de sesión y exportación. La interfaz se verifica también en navegador: escritorio y móvil, práctica completa, reanudación, copiado y búsqueda.
+
+La prueba de navegador está en `tests/browser.test.mjs`. Requiere Playwright solo para desarrollo (`npm install --no-save playwright`) y Edge instalado; con el servidor local en el puerto 8765, ejecutar `node tests/browser.test.mjs`. Se pueden configurar `TEST_URL`, `BROWSER_CHANNEL` y `PLAYWRIGHT_MODULE`. Guarda capturas en `work/`, ignorado por Git. El sitio publicado no requiere estas dependencias.

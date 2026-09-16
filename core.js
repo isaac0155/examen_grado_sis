@@ -32,7 +32,7 @@ export function summarize(questions, answers) {
 }
 
 export function needsReview(q, answer) {
-  return ['wrong','unknown'].includes(grade(q,answer));
+  return Boolean(answer) && (!q.scorable || ['wrong','unknown'].includes(grade(q,answer)));
 }
 
 export function promptText(q) {

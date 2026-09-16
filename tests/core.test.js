@@ -37,7 +37,7 @@ test('Puntaje: abiertas, desconocidas, exclusiones y opciones equivalentes',()=>
   assert.equal(s.correct,3);assert.equal(s.wrong,1);assert.equal(s.unknown,1);assert.equal(s.excluded,1);
   assert.equal(s.automaticCorrect,2);assert.equal(s.automaticTotal,3);
   assert.equal(s.selfCorrect,1);assert.equal(s.selfTotal,2);
-  assert.deepEqual(qs.filter(q=>needsReview(q,answers[q.id])).map(q=>q.id),[2,29]);
+  assert.deepEqual(qs.filter(q=>needsReview(q,answers[q.id])).map(q=>q.id),[2,29,55]);
   assert.equal(grade(q(118),{kind:'choice',value:'B'}),'correct');
   assert.equal(summarize([q(55)],{55:{kind:'unknown'}}).percent,null);
 });

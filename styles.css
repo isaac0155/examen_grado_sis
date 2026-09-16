@@ -119,7 +119,7 @@ select{cursor:pointer}
 .pill{background:#edf2e6;color:#506d52;border-radius:5px;padding:6px 9px;font-size:10px;line-height:1.4;display:inline-block;font-weight:550}
 .pill.correct{background:#e2f0dc;color:#3c662d}
 .pill.wrong{background:#fae9e5;color:var(--red)}
-.pillbutton.unknown{background:#fbf0d7;color:var(--amber)}
+.pill.unknown{background:#fbf0d7;color:var(--amber)}
 .pill.excluded{background:#eaecef;color:#566174}
 progress{height:4px;width:100%;appearance:none;border:0;background:#eef1e9;display:block;border-radius:5px;margin-bottom:22px}
 progress::-webkit-progress-bar{background:#eef1e9;border-radius:5px}

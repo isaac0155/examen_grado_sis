@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#124d42">
+  <meta name="description" content="Practica tu banco de preguntas de Ingeniería de Sistemas. Simulacros, resultados y un repaso hecho a tu medida.">
+  <title>Grado · Tu espacio de preparación</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Saltar al contenido</a>
+  <header class="header">
+    <a class="brand" href="#inicio" aria-label="Grado, inicio"><span class="brand-mark">g.</span><span>grado<span class="brand-dot">.</span></span></a>
+    <nav aria-label="Navegación principal"><a href="#inicio" data-nav="inicio">Mi práctica</a><a href="#banco" data-nav="banco">Explorar banco</a><a href="#revision" data-nav="revision">Sobre las respuestas</a></nav>
+    <span class="header-label">INGENIERÍA DE SISTEMAS</span>
+  </header>
+  <main id="main" tabindex="-1"><p class="loading">Cargando tu espacio de estudio…</p></main>
+  <footer><span>Un paso más cerca de tu examen de grado.</span><span>Tu progreso se guarda en este navegador.</span></footer>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <dialog id="export-dialog" aria-labelledby="export-title"><div class="dialog-head"><h2 id="export-title">Tu lista para aprender</h2><button id="close-export" class="ghost" aria-label="Cerrar">Cerrar ×</button></div><p>Copia este texto y pégalo en ChatGPT. Incluye preguntas, opciones, respuestas y aclaraciones.</p><textarea id="export-text" aria-label="Preguntas para copiar" readonly></textarea><div class="actions"><button id="copy-dialog" class="primary">Copiar texto</button><button id="download-dialog" class="secondary">Descargar .txt</button></div><p id="copy-status" role="status"></p></dialog>
+  <noscript>Activa JavaScript para practicar. Puedes consultar el banco directamente en <a href="./data/questions.json">el archivo JSON</a>.</noscript>
+</body>
+</html>

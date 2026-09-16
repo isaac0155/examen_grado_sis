@@ -1,0 +1,493 @@
+{
+  "1": {
+    "explanation": "El SDLC organiza el desarrollo desde la idea y los requisitos hasta el mantenimiento y retiro. Ayuda a gestionar calidad, presupuesto y calendario; no garantiza por sí solo el éxito."
+  },
+  "2": {
+    "explanation": "El límite de dos segundos expresa una cualidad del sistema: su rendimiento. Registrar usuarios o generar reportes describe funciones."
+  },
+  "3": {
+    "explanation": "Un requisito mal entendido puede afectar diseño, código y pruebas. Corregirlo tarde suele exigir rehacer más trabajo; el crecimiento del costo no es necesariamente exponencial en todos los proyectos."
+  },
+  "4": {
+    "explanation": "La factibilidad estudia si la solución es técnicamente posible, económicamente sostenible y viable en su contexto operativo y legal."
+  },
+  "5": {
+    "explanation": "La arquitectura establece los componentes principales y sus relaciones; el diseño detallado concreta clases, interfaces y algoritmos."
+  },
+  "6": {
+    "explanation": "Añadir capacidades corresponde al mantenimiento evolutivo. Mejorar rendimiento también suele clasificarse como mantenimiento perfectivo; esa categoría no aparece entre las opciones.",
+    "reviewNote": "La mejora del rendimiento se suele llamar mantenimiento perfectivo; C es la mejor opción ofrecida para añadir funcionalidades.",
+    "sources": []
+  },
+  "7": {
+    "explanation": "Validar requisitos significa comprobar que representan las necesidades reales. No basta con implementar correctamente una especificación equivocada."
+  },
+  "8": {
+    "explanation": "Cascada encaja mejor con requisitos estables, porque sus fases secuenciales hacen costosos los cambios tardíos."
+  },
+  "9": {
+    "explanation": "El Manifiesto Ágil valora más el software funcionando que la documentación extensiva, sin declarar que documentar carezca de valor."
+  },
+  "10": {
+    "explanation": "El Product Owner responde por maximizar el valor del producto y por la gestión efectiva del Product Backlog.",
+    "sources": [
+      "https://scrumguides.org/scrum-guide.html"
+    ]
+  },
+  "11": {
+    "explanation": "El Scrum Master ayuda a aplicar Scrum y a mejorar la eficacia del equipo. Facilita la eliminación de impedimentos; no actúa como jefe que asigna cada tarea.",
+    "sources": [
+      "https://scrumguides.org/scrum-guide.html"
+    ]
+  },
+  "12": {
+    "explanation": "El Daily Scrum tiene un timebox de 15 minutos para inspeccionar el avance hacia el objetivo del Sprint y adaptar el plan.",
+    "sources": [
+      "https://scrumguides.org/scrum-guide.html"
+    ]
+  },
+  "13": {
+    "explanation": "B es la mejor opción, pero está incompleta: el Sprint Backlog reúne el objetivo del Sprint, los elementos seleccionados y el plan para entregarlos.",
+    "reviewNote": "La opción B es abreviada: faltan el objetivo del Sprint y el plan de entrega.",
+    "sources": [
+      "https://scrumguides.org/scrum-guide.html"
+    ]
+  },
+  "14": {
+    "explanation": "Kanban hace visible el trabajo y limita lo que se realiza simultáneamente para mejorar el flujo."
+  },
+  "15": {
+    "explanation": "UML es un lenguaje de modelado, no un lenguaje ejecutable ni un gestor de bases de datos."
+  },
+  "16": {
+    "explanation": "Los diagramas de comportamiento describen actividad y evolución del sistema; los de interacción, como secuencia, pertenecen a esta categoría."
+  },
+  "17": {
+    "explanation": "Include incorpora el comportamiento del caso incluido. Extend representa una extensión condicionada del comportamiento base."
+  },
+  "18": {
+    "explanation": "La representación habitual muestra nombre, atributos y operaciones; pueden omitirse compartimentos según el detalle que se necesite comunicar."
+  },
+  "19": {
+    "explanation": "La composición expresa propiedad fuerte: una parte pertenece como máximo a un compuesto a la vez y se destruye con él si continúa siendo parte. Una parte puede desvincularse antes."
+  },
+  "20": {
+    "explanation": "Un diagrama de secuencia muestra participantes y mensajes en orden temporal."
+  },
+  "21": {
+    "explanation": "El diagrama de actividades describe pasos, decisiones, concurrencia y flujo de control de un proceso."
+  },
+  "22": {
+    "explanation": "En el uso habitual, un clon Git contiene el historial y permite trabajar localmente. Existen clones superficiales o parciales que descargan menos información."
+  },
+  "23": {
+    "explanation": "Una línea base es una versión formalmente revisada y acordada, usada como referencia para los cambios siguientes."
+  },
+  "24": {
+    "explanation": "SQA busca prevenir problemas mediante procesos adecuados. Las pruebas inspeccionan el comportamiento del producto y complementan ese trabajo."
+  },
+  "25": {
+    "explanation": "Una prueba unitaria comprueba una unidad pequeña de comportamiento de forma aislada de sus dependencias relevantes."
+  },
+  "26": {
+    "explanation": "Caja negra deriva pruebas del comportamiento esperado y de las entradas y salidas, sin depender de la estructura interna."
+  },
+  "27": {
+    "explanation": "La integración continua integra cambios con frecuencia y los verifica automáticamente mediante compilación y pruebas."
+  },
+  "83": {
+    "explanation": "El aprendizaje supervisado utiliza pares de entrada y etiqueta objetivo para aprender a predecir la salida de nuevas entradas."
+  },
+  "86": {
+    "explanation": "Random Forest combina árboles entrenados con aleatoriedad y agrega sus predicciones. Esto suele reducir la varianza frente a un árbol individual."
+  },
+  "89": {
+    "explanation": "PCA construye componentes ortogonales ordenados por la varianza que explican. Es sensible a la escala de las variables."
+  },
+  "92": {
+    "explanation": "Las activaciones no lineales permiten aprender relaciones que una simple composición de transformaciones lineales no podría representar."
+  },
+  "94": {
+    "explanation": "Entre estas opciones, las CNN aprovechan patrones espaciales locales y comparten pesos. También existen otras arquitecturas modernas para visión."
+  },
+  "97": {
+    "explanation": "MLOps reúne prácticas para operar modelos: versionado, entrenamiento reproducible, despliegue, monitoreo y actualización."
+  },
+  "98": {
+    "explanation": "La RAM mantiene temporalmente instrucciones y datos usados durante la ejecución; normalmente es volátil."
+  },
+  "99": {
+    "explanation": "La gestión de memoria organiza asignación, uso y liberación para aprovechar los recursos y evitar accesos indebidos."
+  },
+  "100": {
+    "explanation": "En el enfoque didáctico del banco, el tamaño del almacenamiento estático se conoce al compilar. No debe confundirse con que su inicialización siempre ocurra en compilación.",
+    "reviewNote": "Se distingue tamaño conocido al compilar de inicialización estática o dinámica.",
+    "sources": []
+  },
+  "101": {
+    "explanation": "La asignación dinámica permite solicitar memoria según necesidades que se conocen durante la ejecución."
+  },
+  "102": {
+    "explanation": "new es un operador de C++ que crea objetos con almacenamiento dinámico. malloc es una función de biblioteca, no un operador de C++."
+  },
+  "103": {
+    "explanation": "En el sentido de arreglo o vector de elementos, estos comparten tipo y se almacenan de forma contigua. std::vector puede además cambiar de tamaño.",
+    "reviewNote": "B es la propiedad básica buscada. Si se interpreta vector como std::vector, C también describe su capacidad de cambiar de tamaño; aquí el tema distingue vector básico de vector dinámico.",
+    "sources": []
+  },
+  "104": {
+    "explanation": "Una matriz bidimensional organiza elementos mediante dos índices: fila y columna."
+  },
+  "105": {
+    "explanation": "Los arreglos y std::vector se indexan desde cero: el primer elemento se accede con [0]."
+  },
+  "106": {
+    "explanation": "Un struct agrupa miembros relacionados, que pueden tener tipos distintos, y también puede declarar funciones miembro."
+  },
+  "107": {
+    "explanation": "struct tiene miembros y herencia públicos por defecto; class los tiene privados por defecto. Ambos admiten métodos y herencia."
+  },
+  "108": {
+    "explanation": "Un puntero representa una dirección de memoria, o un valor nulo. Permite referirse indirectamente a un objeto o función."
+  },
+  "109": {
+    "explanation": "Leer o desreferenciar un puntero no inicializado puede producir comportamiento indefinido; no se debe suponer que apunte a cero."
+  },
+  "110": {
+    "explanation": "delete libera objetos creados con new; delete[] se corresponde con new[]. La memoria obtenida con malloc se libera con free."
+  },
+  "111": {
+    "explanation": "Una clase define un tipo, sus datos y operaciones. Los objetos son instancias de ese tipo."
+  },
+  "112": {
+    "explanation": "El polimorfismo permite utilizar una interfaz común para comportamientos distintos. Es uno de los principios clásicos de POO."
+  },
+  "113": {
+    "explanation": "Un objeto es una instancia concreta de una clase en el contexto de esta pregunta de POO."
+  },
+  "114": {
+    "explanation": "Una lista simple enlaza nodos, cada uno con referencia al siguiente; no exige almacenamiento contiguo."
+  },
+  "115": {
+    "explanation": "Un nodo simple almacena un dato y un enlace al siguiente nodo. El último suele enlazar a null en una lista no circular."
+  },
+  "116": {
+    "explanation": "Una lista doble dispone de enlaces al nodo anterior y al siguiente, permitiendo recorrer ambos sentidos."
+  },
+  "117": {
+    "explanation": "En una lista circular no vacía, el enlace del último nodo regresa al primero."
+  },
+  "118": {
+    "explanation": "LIFO (último en entrar, primero en salir) y FILO (primero en entrar, último en salir) describen la misma disciplina de una pila. B y C son válidas.",
+    "reviewNote": "Se aceptan B y C: LIFO y FILO son equivalentes. El documento solo marca B.",
+    "sources": [],
+    "correctOptions": [
+      "B",
+      "C"
+    ]
+  },
+  "119": {
+    "explanation": "Una cola FIFO atiende primero el elemento que entró primero."
+  },
+  "120": {
+    "explanation": "push inserta en la cima de una pila; pop extrae y top consulta la cima."
+  },
+  "121": {
+    "explanation": "Un vector dinámico puede cambiar su tamaño durante la ejecución, realojando almacenamiento cuando su capacidad resulta insuficiente."
+  },
+  "122": {
+    "explanation": "El encabezado <vector> declara std::vector. Se escribe #include <vector>."
+  },
+  "123": {
+    "explanation": "El encabezado <list> declara std::list, una lista doblemente enlazada."
+  },
+  "124": {
+    "explanation": "std::map asocia claves únicas con valores y mantiene las claves ordenadas."
+  },
+  "125": {
+    "explanation": "Un map permite localizar un valor a partir de su clave; no elimina la necesidad de memoria."
+  },
+  "126": {
+    "explanation": "En un ABB, el subárbol izquierdo contiene valores menores y el derecho mayores según el criterio de comparación; los duplicados requieren una política explícita."
+  },
+  "127": {
+    "explanation": "Un ABB permite búsqueda eficiente si conserva una altura pequeña. Sin equilibrio, el peor caso puede degradarse a tiempo lineal."
+  },
+  "128": {
+    "explanation": "Los microservicios dividen capacidades del sistema en servicios con responsabilidades acotadas."
+  },
+  "129": {
+    "explanation": "Cada servicio puede desplegarse y escalarse de forma independiente cuando sus límites y contratos lo permiten."
+  },
+  "130": {
+    "explanation": "Un API Gateway centraliza la entrada a las APIs y dirige cada solicitud al servicio correspondiente."
+  },
+  "131": {
+    "explanation": "HTTP/REST se utiliza habitualmente en interacciones de solicitud y respuesta entre servicios."
+  },
+  "132": {
+    "explanation": "RabbitMQ y Kafka permiten desacoplar productores y consumidores mediante mensajería o eventos."
+  },
+  "133": {
+    "explanation": "Cada servicio controla sus datos y ofrece contratos para acceder a ellos. No exige necesariamente un servidor físico distinto para cada base."
+  },
+  "134": {
+    "explanation": "Las APIs REST web suelen comunicarse mediante HTTP, protegido con TLS cuando se usa HTTPS."
+  },
+  "135": {
+    "explanation": "GET solicita una representación de un recurso y se define como un método seguro e idempotente."
+  },
+  "136": {
+    "explanation": "404 indica que el servidor no encuentra el recurso solicitado, o no desea revelar que existe."
+  },
+  "137": {
+    "explanation": "Next.js es un framework basado en React para construir aplicaciones web."
+  },
+  "138": {
+    "explanation": "Next.js permite combinar generación estática, renderizado en servidor y componentes interactivos del cliente."
+  },
+  "139": {
+    "explanation": "Un componente React encapsula una parte reutilizable de la interfaz."
+  },
+  "140": {
+    "explanation": "Las props son entradas que un componente recibe de su padre y debe tratar como solo lectura."
+  },
+  "141": {
+    "explanation": "useState declara una variable de estado local y una función para actualizarla."
+  },
+  "142": {
+    "explanation": "map devuelve un nuevo arreglo al aplicar la función a cada elemento: 1×2, 2×2 y 3×2 producen [2, 4, 6]."
+  },
+  "143": {
+    "explanation": "HTML expresa estructura y significado del contenido; CSS controla su presentación."
+  },
+  "144": {
+    "explanation": "El elemento <a> crea enlaces cuando tiene un atributo href."
+  },
+  "145": {
+    "explanation": "CSS define estilos como color, tipografía, espaciado y distribución visual."
+  },
+  "146": {
+    "explanation": "color establece el color del texto; background se utiliza para el fondo."
+  },
+  "147": {
+    "explanation": "B describe una arquitectura posible: la interfaz consume una entrada de APIs que dirige solicitudes a servicios con persistencia. No es la única arquitectura válida."
+  },
+  "31": {
+    "explanation": "Una restricción UNIQUE sobre (vuelo_id, asiento_id) impide repetir esa combinación. La clave primaria id solo identifica cada reserva por separado.",
+    "reviewNote": "La combinación debe ser UNIQUE (vuelo_id, asiento_id). Para que garantice ocupación única, ambas columnas deben ser NOT NULL; MySQL admite varios NULL en índices UNIQUE.",
+    "sources": [],
+    "options": [
+      {
+        "id": "A",
+        "text": "UNIQUE (vuelo_id, asiento_id)"
+      },
+      {
+        "id": "B",
+        "text": "PRIMARY KEY en la columna id de la tabla reservas"
+      },
+      {
+        "id": "C",
+        "text": "UNIQUE (pasajero id)"
+      },
+      {
+        "id": "D",
+        "text": "CHECK (estado = 'confirmada')"
+      }
+    ]
+  },
+  "33": {
+    "explanation": "En InnoDB, una clave foránea con RESTRICT rechaza la eliminación del vuelo mientras existan reservas que lo referencien. NO ACTION tiene el mismo efecto en este motor.",
+    "reviewNote": "La respuesta aplica a InnoDB. En este motor NO ACTION, que es el valor predeterminado documentado, equivale a RESTRICT.",
+    "sources": [
+      "https://dev.mysql.com/doc/refman/8.4/en/create-table-foreign-keys.html"
+    ]
+  },
+  "46": {
+    "explanation": "Preagrupar las transacciones por cuenta puede evitar trabajo repetido al combinar esos totales con las cuentas. C es la intención del ejercicio; el rendimiento real depende del plan elegido por el optimizador, los índices y los datos.",
+    "reviewNote": "C expresa la mejora esperada, no una garantía. El optimizador puede transformar subconsultas correlacionadas; comprobar el plan y medir con EXPLAIN ANALYZE.",
+    "sources": [
+      "https://dev.mysql.com/doc/refman/8.4/en/derived-table-optimization.html"
+    ]
+  },
+  "48": {
+    "explanation": "Una subconsulta dentro de FROM se denomina tabla derivada y necesita un alias en MySQL. El resultado se trata lógicamente como una tabla; su materialización física depende del optimizador.",
+    "prompt": [
+      {
+        "type": "text",
+        "text": "Escenario:  Se necesita calcular el total transaccionado por cuenta, y luego quedarse solo con la cuenta cuyo total sea el más alto de todas. SELECT * FROM (SELECT cuenta_id, SUM(monto) AS total FROM transacciones\n GROUP BY cuenta_id) AS totales_por_cuenta\nORDER BY total DESC LIMIT 1;"
+      },
+      {
+        "type": "text",
+        "text": "La subconsulta entre paréntesis, usada dentro de FROM y con el alias totales_por_cuenta, ¿cómo se conoce y por qué necesita ese alias?"
+      }
+    ],
+    "reviewNote": "Se corrigieron espacios del SQL. Una tabla derivada necesita alias, pero el optimizador puede fusionarla: no siempre materializa una tabla temporal.",
+    "sources": [
+      "https://dev.mysql.com/doc/refman/8.4/en/derived-tables.html",
+      "https://dev.mysql.com/doc/refman/8.4/en/derived-table-optimization.html"
+    ]
+  },
+  "56": {
+    "explanation": "Los métodos CRUD básicos de Sequelize, como findAll o findOne, no expresan directamente el recorrido recursivo de este escenario. Puede usarse sequelize.query para ejecutar la CTE escrita en SQL.",
+    "reviewNote": "La respuesta se refiere a los métodos básicos de Sequelize del escenario. No debe generalizarse a todos los ORM ni a todas sus versiones.",
+    "sources": [
+      "https://sequelize.org/docs/v6/core-concepts/raw-queries/"
+    ]
+  },
+  "58": {
+    "explanation": "Usuario.create() resuelve el alta de un usuario con la abstracción habitual del ORM. Para la CTE recursiva del escenario se recurre a una consulta SQL explícita.",
+    "reviewNote": "La respuesta se refiere a los métodos básicos de Sequelize del escenario. No debe generalizarse a todos los ORM ni a todas sus versiones.",
+    "sources": [
+      "https://sequelize.org/docs/v6/core-concepts/raw-queries/"
+    ]
+  },
+  "64": {
+    "explanation": "Un trigger BEFORE UPDATE con SIGNAL puede impedir la actualización. En un motor transaccional, el fallo revierte los efectos de esa sentencia; no equivale a ejecutar ROLLBACK de toda la transacción.",
+    "reviewNote": "SIGNAL impide que la sentencia termine correctamente. En tablas transaccionales se revierte esa sentencia; no asumir que automáticamente revierte toda una transacción con sentencias anteriores.",
+    "sources": [
+      "https://dev.mysql.com/doc/refman/8.0/en/trigger-syntax.html"
+    ]
+  },
+  "75": {
+    "explanation": "A respeta el prefijo izquierdo del índice (categoria, marca), por lo que es la opción esperada. No está filtrando por precio ni usando las tres columnas como condiciones. Otras estrategias de acceso dependen del optimizador.",
+    "reviewNote": "A utiliza el prefijo izquierdo (categoria, marca), no las tres columnas como filtro. No es cierto que todas las otras consultas siempre recorran la tabla: existen estrategias como skip scan.",
+    "sources": [
+      "https://dev.mysql.com/doc/refman/8.4/en/range-optimization.html"
+    ]
+  },
+  "28": {
+    "modelAnswer": "Las pruebas unitarias verifican una unidad pequeña de código de manera aislada. Las pruebas de integración verifican que varias unidades o módulos colaboren correctamente, especialmente sus interfaces y el intercambio de datos."
+  },
+  "30": {
+    "modelAnswer": "La integración continua (CI) integra cambios frecuentemente y automatiza su compilación y pruebas. La entrega continua mantiene el software validado y listo para publicar: el paso a producción puede requerir aprobación. En el despliegue continuo, cada cambio que supera los controles se publica automáticamente en producción.",
+    "reviewNote": "Se distingue entrega continua de despliegue continuo; el Word mezclaba ambos conceptos.",
+    "sources": []
+  },
+  "37": {
+    "reviewNote": "Si se filtran reservas confirmadas, el filtro de estado debe ir en ON para conservar también vuelos sin reservas confirmadas.",
+    "sources": []
+  },
+  "41": {
+    "reviewNote": "C es la opción pretendida. Para garantizar dos transacciones diferentes añadir t1.id <> t2.id; si se exige estrictamente después, usar t2.fecha > t1.fecha. BETWEEN incluye ambos límites.",
+    "sources": []
+  },
+  "43": {
+    "prompt": [
+      {
+        "type": "text",
+        "text": "Escenario:  Por convención del equipo, la consulta debe escribirse empezando desde transacciones (FROM transacciones), pero se necesita conservar TODAS las cuentas de la tabla cuentas, incluidas las que todavía no tienen ninguna transacción. SELECT c.titular, t.monto FROM transacciones t\n___ JOIN cuentas c ON t.cuenta_id = c.id;"
+      },
+      {
+        "type": "text",
+        "text": "Dado que la consulta empieza en transacciones (tabla izquierda) pero debe conservar todas las filas de cuentas (tabla derecha), ¿qué tipo de JOIN corresponde en el espacio en blanco (___)?"
+      }
+    ],
+    "reviewNote": "Se corrigió una errata de sintaxis del SQL original; el enunciado original se conserva en sourcePrompt.",
+    "sources": []
+  },
+  "50": {
+    "prompt": [
+      {
+        "type": "text",
+        "text": "Escenario:  La tabla transacciones tiene estas filas: (1, A, B), (2, B, C), (3, C, D) — columnas (id, cuenta_origen, cuenta_destino). Se ejecuta esta consulta recursiva para trazar la cadena de transferencias que parte de la cuenta A: WITH RECURSIVE cadena AS (\nSELECT id, cuenta_origen, cuenta_destino, 1 AS nivel\nFROM transacciones WHERE cuenta_origen = 'A'\nUNION ALL\nSELECT t.id, t.cuenta_origen, t.cuenta_destino, c.nivel + 1\nFROM transacciones t\nJOIN cadena c ON t.cuenta_origen = c.cuenta_destino)\nSELECT * FROM cadena;"
+      },
+      {
+        "type": "text",
+        "text": "Con estas 3 filas de ejemplo, ¿qué resultado produce la consulta?"
+      }
+    ],
+    "reviewNote": "El SQL original no tenía el paréntesis tras AS y decía ROM en vez de FROM: literalmente no ejecuta. La web corrige esas erratas y califica C para la consulta corregida.",
+    "sources": [
+      "https://dev.mysql.com/doc/refman/8.4/en/with.html"
+    ]
+  },
+  "62": {
+    "prompt": [
+      {
+        "type": "text",
+        "text": "Escenario:  Se necesita que el procedimiento agendar_cita, además de agendar la cita, informe el resultado de la operación a quien lo invoca (por ejemplo, 'Cita agendada' o 'Horario no disponible'), sin usar SIGNAL para eso. CREATE PROCEDURE agendar_cita (IN p_medico_id INT, IN p_fecha DATETIME,___ p_resultado VARCHAR (100)) BEGIN -- lógica del procedimiento -- SET p_resultado = 'Cita agendada'; END;"
+      },
+      {
+        "type": "text",
+        "text": "¿Qué tipo de parámetro debe ir en el espacio en blanco (___) para que el procedimiento pueda devolver ese mensaje a quien lo llamó?"
+      }
+    ],
+    "reviewNote": "Se corrigió una errata de sintaxis del SQL original; el enunciado original se conserva en sourcePrompt.",
+    "sources": []
+  },
+  "44": {
+    "reviewNote": "B reproduce el conjunto de filas del ejemplo. UNION elimina duplicados; para preservar multiplicidades en general se usa LEFT JOIN UNION ALL con solo las filas sin coincidencia del otro lado.",
+    "sources": []
+  },
+  "51": {
+    "reviewNote": "D explica el problema con WHERE, pero no es obligatorio usar una CTE: GROUP BY ... HAVING SUM(monto) > 5000 también es válido.",
+    "sources": []
+  },
+  "55": {
+    "scorable": false,
+    "correctOptions": [],
+    "explanation": "Ninguna opción es rigurosamente correcta tal como está formulada. MySQL permite actualizar determinadas vistas con INNER JOIN si son fusionables y se modifica una sola tabla base. Las inserciones tienen requisitos adicionales. Sin el esquema y la operación concreta no puede afirmarse que esta vista rechace todo INSERT y UPDATE.",
+    "reviewNote": "El Word marca D. La premisa es incorrecta; esta pregunta se conserva para estudiar, pero no suma ni resta puntos. Consultar al docente.",
+    "sources": [
+      "https://dev.mysql.com/doc/refman/8.4/en/view-updatability.html"
+    ]
+  },
+  "60": {
+    "reviewNote": "A supone que fecha es DATE. Si fuera DATETIME, comparar un rango desde p_fecha hasta p_fecha + INTERVAL 1 DAY para incluir todas las horas del día.",
+    "sources": []
+  },
+  "63": {
+    "modelAnswer": "BEGIN\n  DECLARE EXIT HANDLER FOR SQLEXCEPTION\n  BEGIN\n    ROLLBACK;\n    RESIGNAL;\n  END;\n\n  START TRANSACTION;\n  UPDATE citas SET estado = 'atendida' WHERE id = p_cita_id;\n  INSERT INTO historial_clinico (paciente_id, diagnostico, fecha)\n  VALUES (p_paciente_id, p_diagnostico, NOW());\n  COMMIT;\nEND",
+    "reviewNote": "Cuerpo de procedimiento: declarar el manejador antes de las sentencias. Se requiere un motor transaccional como InnoDB y que el procedimiento controle esta transacción. El comentario del Word no ejecutaba ROLLBACK.",
+    "sources": [
+      "https://dev.mysql.com/doc/refman/8.4/en/declare-handler.html"
+    ]
+  },
+  "65": {
+    "reviewNote": "SIGNAL impide que la sentencia termine correctamente. En tablas transaccionales se revierte esa sentencia; no asumir que automáticamente revierte toda una transacción con sentencias anteriores.",
+    "sources": [
+      "https://dev.mysql.com/doc/refman/8.0/en/trigger-syntax.html"
+    ]
+  },
+  "66": {
+    "reviewNote": "SIGNAL impide que la sentencia termine correctamente. En tablas transaccionales se revierte esa sentencia; no asumir que automáticamente revierte toda una transacción con sentencias anteriores.",
+    "sources": [
+      "https://dev.mysql.com/doc/refman/8.0/en/trigger-syntax.html"
+    ]
+  },
+  "68": {
+    "modelAnswer": "NOT (OLD.estado <=> 'cancelada') AND NEW.estado = 'cancelada'",
+    "reviewNote": "La expresión del Word (OLD.estado <> 'cancelada') es válida si estado no admite NULL. La guía usa comparación segura ante NULL para detectar también NULL → cancelada.",
+    "sources": [
+      "https://dev.mysql.com/doc/refman/8.4/en/comparison-operators.html"
+    ]
+  },
+  "72": {
+    "modelAnswer": "SELECT diagnostico_vigente\nFROM (\n  (SELECT diagnostico_nuevo AS diagnostico_vigente,\n          0 AS prioridad, fecha AS fecha_evento\n   FROM historial_clinico_auditoria\n   WHERE historial_id = p_historial_id\n     AND fecha <= p_fecha_consulta\n   ORDER BY fecha DESC\n   LIMIT 1)\n  UNION ALL\n  (SELECT diagnostico_anterior AS diagnostico_vigente,\n          1 AS prioridad, fecha AS fecha_evento\n   FROM historial_clinico_auditoria\n   WHERE historial_id = p_historial_id\n     AND fecha > p_fecha_consulta\n   ORDER BY fecha ASC\n   LIMIT 1)\n) AS candidatos\nORDER BY prioridad\nLIMIT 1;",
+    "reviewNote": "El Word solo busca el cambio siguiente y falla después del último. La guía toma primero el último cambio hasta la fecha, o el valor anterior del primer cambio posterior. Supone auditoría completa, fechas sin empate y un historial ya existente en la fecha consultada. Sin eventos, fecha de creación o desempate, el esquema dado no permite reconstruir todos los casos.",
+    "sources": []
+  },
+  "73": {
+    "explanation": "El comodín inicial impide una búsqueda por prefijo en el B-tree. En el plan mostrado MySQL hace un recorrido completo de la tabla.",
+    "reviewNote": "FULLTEXT busca términos y no sustituye exactamente a LIKE '%texto%'. Un índice puede servir para un escaneo de cobertura, aunque no para la búsqueda por prefijo de este ejemplo.",
+    "sources": [
+      "https://dev.mysql.com/doc/refman/8.4/en/range-optimization.html"
+    ]
+  },
+  "76": {
+    "reviewNote": "UNIQUE permite varios NULL en MySQL. Usar también NOT NULL si todos los usuarios deben tener correo; la igualdad depende de la collation.",
+    "sources": []
+  },
+  "78": {
+    "reviewNote": "MongoDB tiene esquema flexible, y también permite configurar validación de esquema.",
+    "sources": []
+  },
+  "85": {
+    "modelAnswer": "Definir el problema y las métricas → recolectar y explorar datos → separar entrenamiento, validación y prueba → ajustar el preprocesamiento solo con entrenamiento → entrenar modelos → seleccionar hiperparámetros usando validación o validación cruzada → evaluar una vez en prueba reservada → desplegar y monitorear calidad, deriva y rendimiento.",
+    "reviewNote": "El preprocesamiento que aprende parámetros debe ajustarse solo con entrenamiento. No usar el conjunto de prueba para elegir hiperparámetros.",
+    "sources": [
+      "https://scikit-learn.org/1.8/common_pitfalls.html"
+    ]
+  }
+}
